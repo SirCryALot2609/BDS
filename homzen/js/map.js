@@ -29,7 +29,7 @@
                 '<ul class="list-info">' +
                 '<li><span class="icon icon-bed"></span>3</li>' +
                 '<li><span class="icon icon-bathtub"></span>2</li>' +
-                '<li><span class="icon icon-ruler"></span>600 SqFT</li>' +
+                '<li><span class="icon icon-ruler"></span>600 m²</li>' +
                 "</ul>" +
                 "</div>" +
                 "</div>"
@@ -41,74 +41,74 @@
                 locationData(
                     "images/home/canho1.jpg",
                     "property-details-v1.html",
-                    "Chủ nhà gửi bán lỗ căn hộ 3PN Vinhomes Grand Park, giá chỉ 2,85 tỷ còn thương lượng",
-                    "75 km từ vị trí của tôi"
+                    "Biệt thự Bảo Sơn Paradise 2 mặt đường 190m2 x3.5 tầng hoàn thiện, sổ đỏ lâu dài, giá siêu tốt",
+                    "Vinhomes Grand Park, Phường Long Thạnh Mỹ, Quận 9, Hồ Chí Minh"
                 ),
                 40.711536,
                 -73.994601,
                 1,
-                "<div></div>",
+                "<div></div>"
             ],
             [
                 locationData(
                     "images/home/canho2.jpg",
                     "property-details-v1.html",
-                    "Giỏ hàng Tháng 8/2024 - bảng giá bán mới nhất nhiều căn hộ Sunrise City 1PN-2PN-3PN-4PN-penhouse",
-                    "100 km từ vị trí của tôi"
+                    "Bán nhà Ngô Tất Tố giáp Q1 - 60m2 giá 5,6 tỷ. LH 0901 854 *** Mr Hà",
+                    "Ngô Tất Tố, Phường 22, Bình Thạnh, Hồ Chí Minh"
                 ),
                 40.710885,
                 -74.016245,
                 2,
-                "<div></div>",
+                "<div></div>"
             ],
             [
                 locationData(
                     "images/home/canho3.jpg",
                     "property-details-v2.html",
-                    "(Mới) 12 căn liền kề hàng tuyển giá tốt nhất dự án Geleximco tại khu A-B-C-D. Em Biên 0978 478 ***",
-                    "120 km từ vị trí của tôi"
+                    "Bán nhà riêng 67,4m2 chính chủ tại P9, Gò Vấp, TPHCM",
+                    "Phạm Văn Chiêu, Phường 9, Gò Vấp, Hồ Chí Minh"
                 ),
                 40.715504,
                 -74.010316,
                 3,
-                "<div></div>",
+                "<div></div>"
             ],
             [
                 locationData(
                     "images/home/canho4.jpg",
                     "property-details-v3.html",
-                    "NHÀ ĐẸP, GIÁ RẺ, VIEW THOÁNG - CẬP NHẬT LIÊN TỤC GIỎ HÀNG ĐẢO KIM CƯƠNG TỪ 1-2-3-4-5PN-DUPLEX-VILLA",
-                    "85 km từ vị trí của tôi"
+                    "Tôi chính chủ cần bán gấp nhà phố An Dương Vương, 72m2 * MT 5.6 m, giá 10 tỷ, ô tô đỗ cửa",
+                    "An Dương Vương, Phường Phú Thượng, Tây Hồ, Hà Nội"
                 ),
                 40.711926,
                 -74.006623,
                 4,
-                "<div></div>",
+                "<div></div>"
             ],
             [
                 locationData(
                     "images/home/canho5.jpg",
                     "property-details-v4.html",
-                    "SHOPHOUSE TRỰC DIỆN KHU VUI CHƠI GIẢI TRÍ VÀ CÔNG VIÊN NƯỚC - GIÁ BẰNG CĂN THƯỜNG ~ CK CAO 15%",
-                    "90 km từ vị trí của tôi"
+                    "Nhà phố đẹp đường Phạm Văn Chiêu P9 Gò Vấp giá 5.85 tỷ trệt 2 lầu gồm pk, bếp, 3 pn, 3wc sân thượng",
+                    "Phạm Văn Chiêu, Phường 9, Gò Vấp, Hồ Chí Minh"
                 ),
                 40.709024,
                 -74.012139,
                 5,
-                "<div></div>",
+                "<div></div>"
             ],
             [
                 locationData(
                     "images/home/canho6.jpg",
                     "property-details-v1.html",
-                    "Quỹ căn chuyển nhượng liền kề, biệt thự chính chủ giá tốt nhất dự án VOCP2 - T8/2024. LH 0989 818 ***",
-                    "110 km từ vị trí của tôi"
+                    "Bán nhà mặt phố Cổng Đục phường Hàng Mã Hoàn Kiếm 140m2 4m mặt tiền phù hợp kinh doanh mọi lĩnh vực",
+                    "Cổng Đục, Phường Hàng Mã, Hoàn Kiếm, Hà Nội"
                 ),
                 40.704015,
                 -73.992613,
                 6,
-                "<div></div>",
-            ],
+                "<div></div>"
+            ]
         ];
 
         function numericalRating(ratingElem) {

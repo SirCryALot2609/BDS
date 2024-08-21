@@ -442,11 +442,17 @@ label {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 
-    white-space: nowrap; /* Prevents the text from wrapping to the next line */
-    overflow: hidden;    /* Hides the overflowed text */
-    text-overflow: ellipsis; /* Adds the ellipsis (...) */
-    display: block; /* Ensures the element behaves as a block to manage width and ellipsis */
-    width: 100%; /* You may need to set a width, or ensure it fits within its container */
+    white-space: normal; /* Cho phép văn bản xuống dòng */
+    overflow: hidden;    /* Ẩn phần văn bản bị tràn */
+    text-overflow: ellipsis; /* Thêm dấu chấm lửng (...) */
+    display: -webkit-box; /* Hiển thị như một khối */
+    -webkit-line-clamp: 2; /* Hiển thị tối đa 2 dòng */
+    -webkit-box-orient: vertical; /* Hướng văn bản theo chiều dọc */
+    line-height: 1.5; /* Tùy chỉnh chiều cao dòng */
+    max-height: 3em; /* Chiều cao tối đa để giữ 2 dòng */
+    width: 100%; /* Đảm bảo phần tử phù hợp với chiều rộng của container */
+    font-family: sans-serif;
+    font-weight: 400;
 }
 
 .link:hover {
@@ -538,7 +544,8 @@ label {
 }
 
 .fw-7 {
-    font-weight: 700;
+    font-weight: 400;
+    font-family: sans-serif;
 }
 
 .fw-8 {
@@ -7578,7 +7585,15 @@ label {
     line-height: 28px;
     text-transform: capitalize;
     margin-top: 4px;
-    font-weight: 700;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Hiển thị tối đa 2 dòng */
+    -webkit-box-orient: vertical;
+    max-height: 3em;
+    width: 100%;
+    font-weight: 400;
 }
 
 .map-listing-item .content .list-info {
